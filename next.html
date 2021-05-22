@@ -107,8 +107,198 @@
         <!-- END OF HEADER -->
 
         <!-- START OF CONTENT -->
-        <section class="content">
-           
+        <section class="content__container">
+            <div class="content__container_widgets">
+                <div class="content__container_widgets_header">
+                    <h1>widgets</h1>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+
+                <div class="content__container_widgets_tile">
+                    <div class="content__container_widgets_tile_header">
+                        <h1>contacts</h1>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    
+                    <div class="content__container_widgets_tile_content">
+                        <div class="content__container_widgets_tile_content_icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+
+                        <div class="content__container_widgets_tile_content_info">
+                            <h1>content management</h1>
+                            <p>
+                                Use this widget to add, remove or edit attributes related
+                                to your contacts
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__container_widgets_tile">
+                    <div class="content__container_widgets_tile_header">
+                        <h1>email</h1>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    
+                    <div class="content__container_widgets_tile_content">
+                        <div class="content__container_widgets_tile_content_icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+
+                        <div class="content__container_widgets_tile_content_info">
+                            <h1>send email</h1>
+                            <p>
+                                This widget allows you to send Emails to a user.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__container_widgets_tile">
+                    <div class="content__container_widgets_tile_header">
+                        <h1>flow control</h1>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    
+                    <div class="content__container_widgets_tile_content">
+                        <div class="content__container_widgets_tile_content_icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+
+                        <div class="content__container_widgets_tile_content_info">
+                            <h1>branch</h1>
+                            <p>
+                                Branch widget allows you to split your flow and connect
+                                to specific widgets based on user conditions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content__container_tools">
+                <div class="content__container_tools_call-box">
+                    <div class="content__container_tools_call-box-icon--floating">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="content__container_tools_call-box-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="content__container_tools_call-box-info">
+                        <h1>Inbound voice call</h1>
+                        <p>+966 656755886</p>
+                    </div>
+                </div>
+
+                <div class="content__container_tools_icon">
+                    <i class="fas fa-plus"></i>
+                </div>
+
+                <ul class="content__container_tools_list">
+                    <li class="content__container_tools_item">
+                        <h1 class="content__container_tools_item_title">
+                            widgets
+                        </h1>
+                        <i class="fas fa-angle-down"></i>
+                    </li>
+                    <li class="content__container_tools_item">
+                        <h1 class="content__container_tools_item_title">
+                            contacts
+                        </h1>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                    <li class="content__container_tools_item">
+                        <h1 class="content__container_tools_item_title">
+                            email
+                        </h1>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                    <li class="content__container_tools_item">
+                        <h1 class="content__container_tools_item_title">
+                            flow control
+                        </h1>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                    <li class="content__container_tools_item">
+                        <h1 class="content__container_tools_item_title">
+                            functions
+                        </h1>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                    <li class="content__container_tools_item">
+                        <h1 class="content__container_tools_item_title">
+                            sms
+                        </h1>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                    <li class="content__container_tools_item">
+                        <h1 class="content__container_tools_item_title">
+                            messaging
+                        </h1>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                    <li class="content__container_tools_item">
+                        <h1 class="content__container_tools_item_title">
+                            voice
+                        </h1>
+                        <i class="fas fa-plus"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="content__container_actions">
+                <div class="content__container_actions_variables">
+                    <div class="content__container_actions_variables_heading">
+                        <h1>variables</h1>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+
+                    <div class="content__container_actions_variables_info">
+                        <div class="content__container_actions_variables_info_badge">
+                            <p>caller ID</p>
+                        </div>
+                        <div class="content__container_actions_variables_info_badge">
+                            <p>destination number</p>
+                        </div>
+                        <div class="content__container_actions_variables_info_badge">
+                            <p>event date</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content__container_actions_params">
+                    <div class="content__container_actions_params_heading">
+                        <h1>parameters</h1>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <div class="content__container_actions_params_tile">
+                        <h1>incoming voice call</h1>
+                        <i class="fas fa-edit"></i>
+                    </div>
+
+                    <form class="content__container_actions_params_form">
+                        <div class="form_item">
+                            <label for="app-id">
+                                Application ID <i class="fas fa-question"></i>
+                            </label>
+                            <input id="app-id" type="text" placeholder="Enter application ID">
+                            <p>Don not have an app ID?</p>
+                            <span>Create an application</span>
+                        </div>
+                        
+                        <div class="form_item">
+                            <label for="app-id">
+                                Caller ID <i class="fas fa-question"></i>
+                            </label>
+                            <input id="app-id" type="text" placeholder="Choose one">
+                            <p>Don not have an caller ID?</p>
+                            <span>Request a caller ID</span>
+                        </div>
+
+                        <button class="form_btn">save</button>
+                    </form>
+
+                </div>
+            </div>
         </section>
         <!-- END OF CONTENT -->
     </main>
