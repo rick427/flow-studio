@@ -821,11 +821,13 @@ a {
 
 /* START OF MEDIA QUERIES -- @1024px, 950px, 670px, 500px, 400px, 320px */
 @media only screen and (max-width: 1080px) {
+  /* NEXT PAGE QUERIES */
   .content__container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+  /* NEXT PAGE QUERIES */
 
   .content__container_tools {
     order: -1;
@@ -917,6 +919,7 @@ a {
     margin: 1rem auto;
   }
 
+  /* NEXT PAGE QUERIES */
   .content__container_widgets {
     width: 100%;
   }
@@ -932,6 +935,7 @@ a {
   .content__container_actions {
     width: 100%;
   }
+  /* NEXT PAGE QUERIES */
 }
 
 @media only screen and (max-width: 400px) {
