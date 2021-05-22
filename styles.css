@@ -66,6 +66,7 @@ a {
 
 .header {
   height: 14vh;
+  border: 1px solid red;
 }
 
 /* START OF TOP HEADER */
