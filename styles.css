@@ -65,8 +65,7 @@ a {
 }
 
 .header {
-  height: 14vh;
-  border: 1px solid red;
+  height: auto;
 }
 
 /* START OF TOP HEADER */
@@ -182,7 +181,7 @@ a {
 
 /* START OF BOTTOM HEADER */
 .header__bottom {
-  padding: 1.4rem;
+  padding: 1.3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -280,7 +279,7 @@ a {
 
 /* START OF CONTENT */
 .content {
-  min-height: calc(100vh - 14vh);
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -373,6 +372,7 @@ a {
   align-items: center;
   left: 95%;
   bottom: 2rem;
+  transform: translateX(-95%);
   cursor: pointer;
 }
 
@@ -382,10 +382,6 @@ a {
 
 /* START OF MEDIA QUERIES -- @1024px, 950px, 670px, 500px, 400px, 320px */
 @media only screen and (max-width: 1024px) {
-  .header {
-    height: auto;
-  }
-
   .content {
     min-height: 100vh;
   }
