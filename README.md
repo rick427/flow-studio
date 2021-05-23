@@ -2,4 +2,4 @@
 
 Designs for a static site.
 
-<img src="assets/capture.png" alt="homepage">
+<img src="/assets/capture.PNG" alt="homepage">
